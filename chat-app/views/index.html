@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="stylesheets/login.css">
+</head>
+<body>
+	<header>
+		<div class="company-name">Buddies</div>
+		<div class="company-logo">
+			<img src="images/chat.png" alt="">
+		</div>
+	</header>
+	<section id="main-body">
+		<div id="login-div">
+			<div id="login-form">
+				<input type="text" id="username" placeholder="username" maxlength="15">
+				<button id="chat-btn">Chat</button>
+			</div>	
+		</div>
+
+		<div id="chat-div">
+			<div id="chat-cotent">
+				 
+			</div>
+
+			<div  id="chat-message">
+				<input type="text" name="" id="message">
+				<button id="send-msg">Send</button>
+			</div>
+		</div>
+	</section>
+
+	<script src="javascripts/jquery.min.js"></script>
+	<script src="javascripts/socket.io.js"></script>
+	<script src="javascripts/login.js"></script>
+</body>
+</html>
